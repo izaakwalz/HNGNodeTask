@@ -34,7 +34,7 @@ const server = http.createServer((req, res) => {
     }
     </style>
     <body>
-    <form autocomplete='off' action='/' method='post'>
+    <form autocomplete='off' action='/message' method='post'>
        <input type='text' name='message' placeholder="Please enter message" /> </b>
         <input type='submit' value='Submit Message' />
      </form>
